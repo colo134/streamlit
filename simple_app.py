@@ -9,3 +9,6 @@ import pandas as pd
 
 # # Display the first few rows of the dataset
 # print(tips.head())  # This will show the first 5 rows of the tips dataset
+#Visualizations using Plotly
+fig1 = px.bar(tips, x="day", y="tip")
+fig1.show()
